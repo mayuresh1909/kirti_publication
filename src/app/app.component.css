@@ -279,23 +279,26 @@
     bottom          : 40px;
     background-color: lightcoral;
     min-width       : 200px;
-    box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow      : 0px 8px 16px 0px rgb(0 0 0 / 20%);
     z-index         : 1;
-    border-radius   : 2px;
+    border-radius   : 11px;
 }
 
 /* Links inside the dropup */
 .dropdown-content a {
-    color          : black;
-    padding        : 5px 5px;
-    text-decoration: none;
-    display        : block;
-    border-color   : black;
+    color              : black;
+    padding            : 5px 5px;
+    text-decoration    : none;
+    display            : block;
+    border-color       : white;
+    border-bottom-style: groove;
+    border-radius      : 11px;
 }
 
 /* Change color of dropup links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd
+    background-color: #ddd;
+    border-radius   : 11px;
 }
 
 /* Show the dropup menu on hover */
@@ -304,6 +307,7 @@
 }
 
 /* Change the background color of the dropup button when the dropup content is shown */
-.dropdown:hover #abhyas {
-    background-color: #2980B9;
+.featurekeys:hover {
+    background-color: lightcoral;
+    border-radius: 6px;
 }
