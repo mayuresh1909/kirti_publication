@@ -1,0 +1,94 @@
+<div class="fullScreen">
+    <div class="topScreen">
+        <div class="leftScreen">
+            <div class="logo"> </div>
+            <div class="lesson">
+                <button mat-raised-button *ngFor="let chapter of chapters" class="lessonName"
+                    (click)="getLessonName(chapter.name)">{{chapter.name}}</button>
+            </div>
+        </div>
+        <div class="middleScreen">
+            <div class="displayScreen">
+                <plyr *ngIf="animation" [plyrSources]="videoSources" (plyrInit)="player = $event" (plyrPlay)="played()">
+                </plyr>
+                <pdf-viewer *ngIf="lesson" [src]="lessonName" style="height: -webkit-fill-available;"
+                    [render-text]="true"></pdf-viewer>
+            </div>
+            <div class="featureButtons">
+                <div><button class="featurekeys anim" (click)="playAnim()"></button></div>
+                <div class="dropdown">
+                    <button id="abhyas" class="featurekeys abhyas"></button>
+                    <div class="dropdown-content">
+                        <a> उच्चारण - सुनो, पढो और लिखो । </a>
+                        <a> शब्द ग्यान </a>
+                        <a> वर्तनी ग्यान </a>
+                        <a> अंग्रेजी भाषा के प्रचलित शब्द । </a>
+                    </div>
+                </div>
+
+                <div><button class="featurekeys slidShow"></button></div>
+                <div><button class="featurekeys quiz"></button></div>
+                <div><button class="featurekeys yogyata"></button></div>
+                <div><button class="featurekeys concept"></button></div>
+                <div><button class="featurekeys rachana"></button></div>
+                <div><button class="featurekeys moral"></button></div>
+                <div><button class="featurekeys vertani"></button></div>
+            </div>
+        </div>
+        <div class="rightScreen">
+            <div class="logoRight"> </div>
+            <div class="tributton">
+                <button class="moolBhav sideButton"></button>
+                <button class="rachanatmak sideButton"></button>
+                <button class="sanket sideButton"></button>
+            </div>
+            <div>
+                <button class="paper"></button>
+            </div>
+            <div class="tributton">
+                <button class="answereKeys sideButton"></button>
+                <button class="workplan sideButton"></button>
+                <button class="lessonPlan sideButton"></button>
+            </div>
+        </div>
+    </div>
+    <div class="bottomScreen">
+        <div class="navSection">
+            <button class="navButton speaker" title="speaker">
+            </button>
+            <button class="navButton list" title="content">
+            </button>
+        </div>
+        <div class="navSection">
+            <button class="navButton hide_seek" title="Hide and Seek">
+            </button>
+            <button class="navButton spot_light" title="Spot light">
+            </button>
+        </div>
+        <div class="navSection">
+            <button class="navButton zoomIn" title="Zoom out">
+            </button>
+            <button class="navButton zoomOut" title="Zoom In">
+            </button>
+        </div>
+        <div class="navSection">
+            <button class="navButton leftArrow" title="previous"></button>
+            <button class="navButton blank"></button>
+            <button class="navButton rightArrow" title="Next"></button>
+        </div>
+        <div class="navSection">
+            <button class="navButton notePad" title="Note Pad">
+            </button>
+        </div>
+        <div class="navSection">
+            <button class="navButton attention" title="Attention">
+            </button>
+        </div>
+        <div class="navSection">
+            <button class="navButton pencil" title="pencil">
+            </button>
+            <button class="navButton eraser" title="eraser">
+            </button>
+        </div>
+    </div>
+</div>

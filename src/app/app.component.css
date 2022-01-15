@@ -1,0 +1,309 @@
+.leftScreen {
+    width         : 20vw;
+    height        : 95vh;
+    border-right  : 3px solid #d1d1d1;
+    display       : flex;
+    flex-direction: column;
+
+}
+
+.logo {
+    background-image : url('../assets/book_logo/Medha.png');
+    width            : auto;
+    height           : 25vh;
+    background-repeat: round;
+}
+
+.lesson {
+    overflow-y: scroll;
+    height    : 65vh;
+}
+
+.lessonName {
+    margin          : 5px 30px;
+    background-image: url('../assets/buttons/Ch-Buttons.png');
+    padding         : 3px;
+    background-size : cover;
+    width           : -webkit-fill-available;
+}
+
+.topScreen {
+    display         : flex;
+    background-image: url('../assets/backGround.png');
+    height          : 95vh;
+}
+
+.displayScreen {
+    height          : 86vh;
+    background-color: currentcolor;
+    border          : 12px solid rosybrown;
+}
+
+.middleScreen {
+    width : 80vw;
+    height: 95vh;
+}
+
+.featureButtons {
+    height         : 6vh;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin         : 3px 0px;
+}
+
+.featurekeys {
+    height            : 90%;
+    /* width          : calc(100%/9);*/
+    width             : 105px;
+    margin            : 5px 3px;
+    background-size   : cover;
+    border            : none;
+}
+
+.rightScreen {
+    width         : 15vw;
+    height        : 90vh;
+    display       : flex;
+    flex-direction: column;
+}
+
+.logoRight {
+    background-image : url('../assets/book_logo/book.png');
+    width            : auto;
+    height           : 20vh;
+    background-repeat: round;
+}
+
+.tributton {
+    height  : 130px;
+    width   : 150px;
+    display : inline-grid;
+    position: relative;
+}
+
+.sideButton {
+    background-size: cover;
+    margin         : 2px 0px;
+    border-radius  : 6px;
+}
+
+.moolBhav {
+    background-image: url('../assets/buttons/Mool_Bhaav.png');
+}
+
+.rachanatmak {
+    background-image: url('../assets/buttons/Rachna_kaar.png');
+}
+
+.sanket {
+    background-image: url('../assets/buttons/Adhyapan_sanket.png');
+}
+
+.paper {
+    background-image: url('../assets/buttons/QPG_Button.png');
+    width           : 60px;
+    height          : 195px;
+    border          : 0;
+    background-size : 100%;
+    margin          : 7px 30px;
+}
+
+.answereKeys {
+    background-image: url('../assets/buttons/AK_Button.png');
+    height          : 46px;
+    margin          : 0px 0px 3px -23px;
+    border-radius   : 25px;
+}
+
+.workplan {
+    background-image: url('../assets/buttons/WS_Button.png');
+    height          : 46px;
+    margin          : 0px 0px 3px -23px;
+    border-radius   : 25px;
+}
+
+.lessonPlan {
+    background-image: url('../assets/buttons/LP_Button.png');
+    height          : 46px;
+    margin          : 0px 0px 3px -23px;
+    border-radius   : 25px;
+}
+
+.anim {
+    background-image: url('../assets/buttons/Anim_Button.png');
+}
+
+.abhyas {
+    background-image: url('../assets/buttons/Exercise_Button.png');
+    cursor          : pointer;
+}
+
+.slidShow {
+    background-image: url('../assets/buttons/Slide_show_Button.png');
+}
+
+.quiz {
+    background-image: url('../assets/buttons/Quiz_button.png');
+}
+
+.yogyata {
+    background-image: url('../assets/buttons/Yogyta_Vistaar_Button.png');
+}
+
+.concept {
+    background-image: url('../assets/buttons/Concept_Map_Button.png');
+}
+
+.rachana {
+    background-image: url('../assets/buttons/Rachna_ka_sansaar_Button.png');
+}
+
+.moral {
+    background-image: url('../assets/buttons/Moral_Values_Button.png');
+}
+
+.vertani {
+    background-image: url('../assets/buttons/Vartini_gyaan_Button.png');
+}
+
+.bottomScreen {
+    height          : 5vh;
+    width           : auto;
+    background-color: royalblue;
+    display         : flex;
+    justify-content : space-around;
+}
+
+.navButton {
+    height           : 100%;
+    margin           : 0px 2px;
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+.navSection {
+    display     : flex;
+    border-right: ridge;
+    border-left : ridge;
+    padding     : 0px 2px;
+}
+
+.speaker {
+    background-image: url('../assets/buttons/speaker.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.list {
+    background-image: url('../assets/buttons/list.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.hide_seek {
+    background-image: url('../assets/buttons/hide_seek.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.spot_light {
+    background-image: url('../assets/buttons/spot_light.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.zoomIn {
+    background-image: url('../assets/buttons/zoomIn.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.zoomOut {
+    background-image: url('../assets/buttons/ZoomOut.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.leftArrow {
+    background-image: url('../assets/buttons/leftArrow.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.blank {
+    width        : 80px;
+    border-radius: 20px 20px 18px 18px;
+}
+
+.rightArrow {
+    background-image: url('../assets/buttons/rightArrow.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.notePad {
+    background-image: url('../assets/buttons/notePad.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.attention {
+    background-image: url('../assets/buttons/attention.png');
+    width           : 38px;
+    border-radius   : 45px 45px 42px 42px;
+}
+
+.pencil {
+    background-image: url('../assets/buttons/pencil.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.eraser {
+    background-image: url('../assets/buttons/eraser.png');
+    width           : 38px;
+    border-radius   : 20px 20px 18px 18px;
+}
+
+.dropdown {
+    position     : relative;
+    display      : inline-block;
+    border-radius: 2px;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropdown-content {
+    display         : none;
+    position        : absolute;
+    bottom          : 40px;
+    background-color: lightcoral;
+    min-width       : 200px;
+    box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index         : 1;
+    border-radius   : 2px;
+}
+
+/* Links inside the dropup */
+.dropdown-content a {
+    color          : black;
+    padding        : 5px 5px;
+    text-decoration: none;
+    display        : block;
+    border-color   : black;
+}
+
+/* Change color of dropup links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+/* Show the dropup menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropdown:hover #abhyas {
+    background-color: #2980B9;
+}
